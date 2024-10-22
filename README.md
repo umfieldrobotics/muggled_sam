@@ -1,4 +1,8 @@
-# Muggled SAM
+# Muggled SAM with Mask2Former for segmentation
+
+To install this repo as a package, run `pip install -e .` in the root directory. Import the module with `import muggled_sam` in any python environment!
+
+# Muggled SAM (original README)
 
 This repo contains a simplified implementation of the awesome 'Segment Anything' models from [facebookresearch/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) (and [SAMV1](https://github.com/facebookresearch/segment-anything)), with the intention of [removing the magic](https://en.wikipedia.org/wiki/Muggle) from the original code base to make it easier to understand. Most of the changes come from separating/simplifying the different components of the model structure.
 
